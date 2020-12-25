@@ -39,7 +39,9 @@ const HomeSection = (props) => {
                 <div className={`row no-gutters align-items-center ${styles.background}`}>
                     <div className={`col-sm-8 offset-sm-2 col-lg-10 offset-lg-1 ${styles.text_container}`}>
                         <h1 className={styles.typedtext}>Med Mogasemi</h1>
-                        <body1 className={styles.abouttext}>Teacher | Trader | Thinker</body1>
+                        <body1 className={styles.abouttext}>Teacher | Trader | Thinker</body1> <br />
+                        <img src="https://img.icons8.com/windows/56/000000/email-open.png" className={styles.spacedimages} onClick={() => window.open("mailto:.med@mogasemi.com")}/>
+                        <img src="https://img.icons8.com/fluent-systems-regular/56/000000/facebook-new.png" className={styles.spacedimages} onClick={() => window.open("https://www.facebook.com/mogasemi")}/>
                     </div>
                     <div className={`row no-gutters align-items-center`}>
                         <div className={styles.start_button_container} onClick={()=> OnClickBehavior('about_section')}>

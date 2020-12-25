@@ -79,6 +79,11 @@ const ExperienceSection = () => {
                             </TimelineContent>
                         </TimelineItem>
                         <TimelineItem>
+                            <TimelineOppositeContent>
+                            <Typography variant="body2">
+                                1990-1992
+                            </Typography>
+                            </TimelineOppositeContent>
                             <TimelineSeparator>
                             <TimelineDot color="primary" variant="outlined">
                                 <SchoolIcon />
@@ -95,6 +100,11 @@ const ExperienceSection = () => {
                             </TimelineContent>
                         </TimelineItem>
                         <TimelineItem>
+                            <TimelineOppositeContent>
+                            <Typography variant="body2">
+                                1985-1989
+                            </Typography>
+                            </TimelineOppositeContent>
                             <TimelineSeparator>
                             <TimelineDot color="primary" variant="outlined">
                                 <SchoolIcon />

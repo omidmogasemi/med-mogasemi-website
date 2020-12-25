@@ -33,8 +33,8 @@ const NavBar = ({ setFadeAbout, setFadeExperience }) => {
                     let anchorTop_full = $els.page.offset().top;
 
                     if (scrollTop >= anchorTop) {
-                        $(`.${styles.navitem}`).find(`div.${styles.underline}`).removeClass(styles.selected);
-                        $els.navItem.find(`.${styles.underline}`).addClass(styles.selected);
+                        // $(`.${styles.navitem}`).find(`div.${styles.underline}`).removeClass(styles.selected);
+                        // $els.navItem.find(`.${styles.underline}`).addClass(styles.selected);
                         
                         if (i == 1)
                         {
