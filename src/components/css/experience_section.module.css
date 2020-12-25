@@ -1,0 +1,13 @@
+/* .top_margin {
+    margin-top: 2.75rem;
+} */
+
+.text_container {
+    color: black;
+    background-color: #e3e3e3;
+}
+
+.top_text {
+    color: rgb(97, 129, 182);
+    font-weight: 300;
+}

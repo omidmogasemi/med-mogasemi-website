@@ -3,6 +3,7 @@ import styles from "./css/home_section.module.css"
 import Typed from "typed.js"
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import scrollTo from 'gatsby-plugin-smoothscroll';
+import background from "../images/med.jpg";
 
 const HomeSection = (props) => {
     // let typed
@@ -33,14 +34,21 @@ const HomeSection = (props) => {
     }
 
     return (
-        <div className="container-fluid p-0">
-            <div className={`row no-gutters align-items-center`}>
-                <div className={styles.start_button_container} onClick={()=> OnClickBehavior('about_section')}>
-                    <div className={styles.start_button_text}>START</div>
-                    <div className={styles.start_button_button}>
-                        <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M2 2L10 10L18 2" stroke="white" strokeWidth="3"/>
-                        </svg>
+        <div style={{minHeight: "100vh", backgroundImage: `url(${background})`, backgroundSize: "cover", backgroundRepeat: "no-repeat"}}>
+            <div className="container-fluid p-0">
+                <div className={`row no-gutters align-items-center ${styles.background}`}>
+                    <div className={`col-sm-8 offset-sm-2 col-lg-10 offset-lg-1 ${styles.text_container}`}>
+                        <h1 className={styles.typedtext}>Med Mogasemi</h1>
+                        <body1 className={styles.abouttext}>Teacher | Trader | Thinker</body1>
+                    </div>
+                    <div className={`row no-gutters align-items-center`}>
+                        <div className={styles.start_button_container} onClick={()=> OnClickBehavior('about_section')}>
+                            <div className={styles.start_button_button}>
+                                <svg width="20" height="13" viewBox="0 0 20 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 2L10 10L18 2" stroke="white" strokeWidth="3"/>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

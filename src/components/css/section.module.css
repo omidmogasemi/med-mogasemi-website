@@ -1,9 +1,13 @@
-.section
-{
-    font-family: 'Arial';
-    position: relative;
-    display: block;
-    min-height: 100vh;
-    max-height: fit-content;
-    background-color: black;
+.section {
+  background: rgb(97, 129, 182);
+  font-family: "Open Sans";
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  max-height: fit-content;
+  font-size: 50px;
+  font-weight: normal;
+  scroll-behavior: smooth;
+  color: white;
 }

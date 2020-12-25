@@ -1,0 +1,50 @@
+.top_text {
+  margin-top: 2rem;
+  font-size: 2.75rem;
+}
+
+.top_margin {
+  margin-top: 2.75rem;
+}
+
+.img_style {
+  width: 100%;
+  height: auto;
+  margin-right: 2rem;
+}
+
+.about_text {
+  font-size: 1.5rem;
+}
+
+.start_button_container {
+  text-align: center;
+  font-family: "Proxima Nova";
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+  
+.start_button_container:hover {
+  opacity: 0.75;
+}
+  
+.start_button_button {
+  animation: start_button 2s ease-in-out infinite;
+}
+
+@keyframes start_button {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
