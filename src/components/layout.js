@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import NavBar from "./navbar" 
-import Section from "./Section"
+import Section from "./section"
 import HomeSection from "./home_section"
 import AboutSection from "./about_section"
 import ExperienceSection from "./experience_section"
