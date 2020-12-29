@@ -2,8 +2,8 @@
   "name": "med-mogasemi-website",
   "version": "1.0.0",
   "private": true,
-  "description": "Med Mogasemi Website",
-  "author": "Omid",
+  "description": "Med Mogasemi's Website",
+  "author": "Omid Mogasemi",
   "keywords": [
     "gatsby"
   ],
@@ -21,8 +21,6 @@
     "@material-ui/lab": "^4.0.0-alpha.57",
     "bootstrap": "^4.5.3",
     "gatsby": "^2.26.1",
-    "gatsby-plugin-offline": "^3.7.0",
-    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^3.7.0",
     "gatsby-plugin-smoothscroll": "^1.2.0",
     "jquery": "^3.5.1",
