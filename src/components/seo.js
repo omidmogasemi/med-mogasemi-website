@@ -25,17 +25,6 @@ function SEO({lang, meta}) {
           og_description
         }
       }
-      file(relativePath: {eq: "med.jpg"}) {
-        childImageSharp {
-          fluid {
-            base64
-            aspectRatio
-            src
-            srcSet
-            sizes
-          }
-        }
-      }
     }
     `
   )
@@ -61,7 +50,7 @@ function SEO({lang, meta}) {
         },
         {
           property: `og:image`,
-          content: `${file.childImageSharp.fluid.src}` ,
+          content: `/src/images/IMG_0026.jpg`,
         },
         {
           property: `og:title`,
@@ -89,7 +78,7 @@ function SEO({lang, meta}) {
         },
         {
           name: `twitter:image`,
-          content: `src/images/med.jpg`,
+          content: `/src/images/IMG_0026.jpg`,
         },
         {
           name:  `twitter:site`,

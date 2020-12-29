@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Med Mogasemi`,
     domain: `https://hackdavis.io`,
-    image: `/src/images/med.jpg`,
+    image: `/src/images/IMG_0026.jpg`,
     author: `Omid Mogasemi`,
     description: `Hi, I'm Med. Welcome to my website.`,
     keywords: `Med Mogasemi, Omid Mogasemi, Med, Medhi, Moghassemi, Medhi Moghassemi, Saddleback, Santiago Canyon, Teacher, Stock Trading, Stock Trader`,
